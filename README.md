@@ -34,20 +34,71 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
 
 ## 📱 Screenshots
 
+<div align="center">
+
 <table>
   <tr>
-    <td align="center"><img src="docs/screenshots/01-splash.png" width="190"><br><sub><b>Splash</b><br>Logo & Intro</sub></td>
-    <td align="center"><img src="docs/screenshots/02-home.png" width="190"><br><sub><b>Home</b><br>Begrüßung & Feature-Übersicht</sub></td>
-    <td align="center"><img src="docs/screenshots/03-explore.png" width="190"><br><sub><b>DBZ-Welt</b><br>Charaktere · Transformationen · Planeten</sub></td>
-    <td align="center"><img src="docs/screenshots/04-detail.png" width="190"><br><sub><b>Detail</b><br>Werte, Beschreibung & Favorit</sub></td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/01-splash.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Splash Screen">
+      <br><br>
+      <strong>Splash</strong>
+      <br>
+      <sub>Logo & Intro</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/02-home.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Home Screen">
+      <br><br>
+      <strong>Home</strong>
+      <br>
+      <sub>Begrüßung & Feature-Übersicht</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/03-explore.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="DBZ Welt Screen">
+      <br><br>
+      <strong>DBZ-Welt</strong>
+      <br>
+      <sub>Charaktere · Transformationen · Planeten</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/04-detail.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Detail Screen">
+      <br><br>
+      <strong>Detail</strong>
+      <br>
+      <sub>Werte · Beschreibung · Favorit</sub>
+    </td>
   </tr>
   <tr>
-    <td align="center"><img src="docs/screenshots/05-favorites.png" width="190"><br><sub><b>Favoriten</b><br>Gemerkte Charaktere</sub></td>
-    <td align="center"><img src="docs/screenshots/06-search.png" width="190"><br><sub><b>Suche</b><br>Live-Filter über das Universum</sub></td>
-    <td align="center"><img src="docs/screenshots/07-play.png" width="190"><br><sub><b>Spiel</b><br>Held wählen & Gegner antreten lassen</sub></td>
-    <td align="center" valign="middle"><sub>📺<br><i>Getestet auf<br>Android-Emulator<br>(API 24–34)</i></sub></td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/05-favorites.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Favoriten Screen">
+      <br><br>
+      <strong>Favoriten</strong>
+      <br>
+      <sub>Gemerkte Charaktere</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/06-search.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Suche Screen">
+      <br><br>
+      <strong>Suche</strong>
+      <br>
+      <sub>Live-Filter über das Universum</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/07-play.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Spiel Screen">
+      <br><br>
+      <strong>Spiel</strong>
+      <br>
+      <sub>Held wählen · Gegner antreten</sub>
+    </td>
+    <td width="25%" align="center" valign="middle">
+      <br><br><br>
+      <strong>Getestet auf</strong>
+      <br>
+      <sub>Android-Emulator<br>API 24–34</sub>
+    </td>
   </tr>
 </table>
+
+</div>
 
 ---
 
