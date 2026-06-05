@@ -14,6 +14,7 @@ und schicke deinen Helden in den Kampf.
 ![Android](https://img.shields.io/badge/Android-min%20SDK%2024-3DDC84?logo=android&logoColor=white)
 ![Architektur](https://img.shields.io/badge/Architektur-MVVM-blue)
 ![Status](https://img.shields.io/badge/Status-Abschlussprojekt%20✓-success)
+![Lizenz](https://img.shields.io/badge/Lizenz-MIT-green)
 
 </div>
 
@@ -39,28 +40,28 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
 <table>
   <tr>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/01-splash.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Splash Screen">
+      <img src="docs/screenshots/01-splash.png" width="190" alt="Splash Screen">
       <br><br>
       <strong>Splash</strong>
       <br>
       <sub>Logo & Intro</sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/02-home.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Home Screen">
+      <img src="docs/screenshots/02-home.png" width="190" alt="Home Screen">
       <br><br>
       <strong>Home</strong>
       <br>
       <sub>Begrüßung & Feature-Übersicht</sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/03-explore.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="DBZ Welt Screen">
+      <img src="docs/screenshots/03-explore.png" width="190" alt="DBZ Welt Screen">
       <br><br>
       <strong>DBZ-Welt</strong>
       <br>
       <sub>Charaktere · Transformationen · Planeten</sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/04-detail.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Detail Screen">
+      <img src="docs/screenshots/04-detail.png" width="190" alt="Detail Screen">
       <br><br>
       <strong>Detail</strong>
       <br>
@@ -69,21 +70,21 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
   </tr>
   <tr>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/05-favorites.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Favoriten Screen">
+      <img src="docs/screenshots/05-favorites.png" width="190" alt="Favoriten Screen">
       <br><br>
       <strong>Favoriten</strong>
       <br>
       <sub>Gemerkte Charaktere</sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/06-search.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Suche Screen">
+      <img src="docs/screenshots/06-search.png" width="190" alt="Suche Screen">
       <br><br>
       <strong>Suche</strong>
       <br>
       <sub>Live-Filter über das Universum</sub>
     </td>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/07-play.png" width="190" height="390" style="object-fit: cover; border-radius: 18px;" alt="Spiel Screen">
+      <img src="docs/screenshots/07-play.png" width="190" alt="Spiel Screen">
       <br><br>
       <strong>Spiel</strong>
       <br>
@@ -210,6 +211,15 @@ ist dokumentiert in **[docs/ENTWICKLUNGSVERLAUF.md](docs/ENTWICKLUNGSVERLAUF.md)
 ## 👤 Autor
 
 **Michael F. Junior** — Abschlussprojekt der Android-Ausbildung (2024)
+
+---
+
+## 📄 Lizenz
+
+Der **Quellcode** dieses Projekts steht unter der **MIT-Lizenz** — siehe [LICENSE](LICENSE).
+
+Die MIT-Lizenz gilt ausschließlich für den selbst geschriebenen Code, **nicht** für die
+eingebundenen Dragon-Ball-Z-Marken, -Namen, -Bilder und -Mediendateien (siehe Hinweis unten).
 
 ---
 
