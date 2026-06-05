@@ -1,0 +1,79 @@
+<resources>
+    <string name="app_name">Z`Almanach</string>
+    <string name="description_icon_app">App Icon</string>
+
+    <string name="home">Home</string>
+    <string name="dbz">DBZ</string>
+    <string name="dbz_detail">DBZ Detail</string>
+    <string name="favorite">Favorite</string>
+    <string name="search">Search</string>
+
+    <string name="spa_und_spannung">Spaß und Spannung</string>
+    <string name="infos_spiel">Infos, Spiel-</string>
+    <string name="lmanach"><u>Àlmanach</u></string>
+    <string name="text_copyright">\u00A9 2024 Michael F. Junior</string>
+    <string name="text_appversion">Version 1.0.1</string>
+
+    <string name="login">Login</string>
+    <string name="email_eingeben">Email eingeben ...</string>
+    <string name="passwort">Passwort</string>
+    <string name="passwort_vergessen">Passwort Vergessen?</string>
+    <string name="noch_keinen_account">Noch keinen Account?</string>
+    <string name="hier_registrieren">Hier Registrieren !</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+
+    <string name="das_ist_ein_z">Das ist ein Z</string>
+    <string name="home_intro">Für Jung und Alt für jeden Dragonball Fan was dabei. Hier findest du iene Sammlung deiner Lieblingscharacteren und viellerlei anderer Interessanten und Lustigen Informationen und Wissenswertes.  Viel Spaß dein Team vom Z-Almanach!</string>
+    <string name="erkunde_die_dbz_welt">Erkunde die DBZ Welt</string>
+    <string name="features"><u>Feature- Bereiche:</u></string>
+
+    <string name="die_detailansicht_des_ausgew_hlten_charakters">Die Detailansicht des ausgewählten Charakters</string>
+    <string name="description">Description noch nicht Verfügbar</string>
+    <string name="race">Race</string>
+    <string name="max_ki">Max. KI</string>
+    <string name="ki">Ki</string>
+    <string name="name">Name</string>
+    <string name="dbz_itemImage_name">Name</string>
+
+    <string name="btc_adress">bc1qwn4ca3u22fkkc6rm78puukxy72as9w6m03gdhv</string>
+    <string name="search_erkunde_das_dbz_universum">Search, erkunde das DBZ- Universum</string>
+    <string name="favorite_lasse_zwei_charactere_gegen_einander_antreten">Favorits, lasse zwei Charactere gegen einander antreten!</string>
+    <string name="detail_the_how_is_how">Detail, The How is How!</string>
+    <string name="dbz_schau_dir_deine_linblings_charaktere_an">DBZ, schau dir deine Linblings Charaktere an</string>
+    <string name="bild_von_einem_charater">Bild von einem Charater</string>
+    <string name="charaktere"><u>Charaktere</u></string>
+    <string name="transformation"><u>Transformation</u></string>
+    <string name="planets"><u>Planets</u></string>
+    <string name="fan_bilder">Fan Bilder</string>
+    <string name="fan_image">Fan Image</string>
+    <string name="is_destroyed">Is Destroyed</string>
+    <string name="passwort_wiederholen">Passwort wiederholen</string>
+    <string name="hier_siehst_du_s_mtliche_informationen_nstory_modus_w_hle_deinen_favoriten_zum_spielen_aus">Hier siehst du sämtliche Informationen \nStory Modus wähle deinen Favoriten zum Spielen aus!</string>
+    <string name="name_hardcode">Name</string>
+    <string name="ki_hardcode">KI</string>
+    <string name="is_destroyed_hardcode">Planet</string>
+    <string name="max_ki_hardcode">Max. KI</string>
+    <string name="race_hardcode">Race</string>
+    <string name="standart_favorit_element">Standart Favorit Element</string>
+    <string name="deine_gegner"><u>Deine Gegner</u></string>
+    <string name="hier_bist_du_richtig_wenn_du_action_suchst">Hier bist du richtig wenn du ACTION suchst</string>
+    <string name="dein_gew_hlter_held"><u>Dein gewählter Held</u></string>
+    <string name="lebenspunkte_start"><u>Lebenspunkte Start</u></string>
+    <string name="_10000_lp"><u>10000 LP</u></string>
+    <string name="spiel_starten">Spiel starten</string>
+    <string name="modus">Modus</string>
+    <string name="schwierigkeit">Schwierigkeit</string>
+    <string name="suprise">Suprise</string>
+    <string name="download">Download</string>
+    <string name="play">Play</string>
+    <string name="held_w_hlen">Held Wählen</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="deine_favoriten">Deine Favoriten -> COMING SOON !</string>
+    <string name="stell_deine_favoriten_zusammen">Stell Deine Favoriten zusammen</string>
+    <string name="logout_button">Logout Button</string>
+    <string name="wiki">Wiki</string>
+    <string name="deine_favoritent">Deine Favoritent</string>
+    <string name="action_in_the_house">Action in The House</string>
+    <string name="like">LIKE</string>
+</resources>

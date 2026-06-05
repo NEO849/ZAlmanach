@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.HomeFragment"
+    android:background="@drawable/hintergrund">
+
+
+    <ImageView
+        android:id="@+id/iv_z"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="28dp"
+        android:background="@color/cardview"
+        android:contentDescription="@string/das_ist_ein_z"
+        android:src="@drawable/baseline_electric_bolt_24"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/divider12"
+        app:layout_constraintStart_toStartOf="@+id/divider12" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_dbz_choiseCharacter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="48dp"
+        android:alpha="0.78"
+        android:backgroundTint="@color/cardview"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider12"
+        app:layout_constraintEnd_toEndOf="@+id/divider12">
+
+        <TextView
+            android:id="@+id/tv_almanach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/lmanach"
+            android:textColor="@color/white"
+            android:textSize="26sp" />
+    </androidx.cardview.widget.CardView>
+
+
+    <View
+        android:id="@+id/divider12"
+        android:layout_width="294dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="148dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:layout_marginTop="8dp"
+        android:scrollbars="none"
+        app:layout_constraintEnd_toEndOf="@+id/divider12"
+        app:layout_constraintStart_toStartOf="@+id/divider12"
+        app:layout_constraintTop_toBottomOf="@+id/divider12">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/cardview"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp">
+
+            <TextView
+                android:id="@+id/tv_description_home"
+                android:layout_width="296dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="16dp"
+                android:scrollbars="vertical"
+                android:text="@string/home_intro"
+                android:textColor="@color/white"
+                android:textSize="22sp" />
+        </androidx.cardview.widget.CardView>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/features"
+        app:layout_constraintBottom_toTopOf="@+id/divider6"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/backround_btn"
+        android:padding="4dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="14sp"/>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_description_dbz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/cardview"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/cv_home_description_search"
+        app:layout_constraintStart_toStartOf="@+id/cv_home_description_search"
+        app:layout_constraintTop_toBottomOf="@+id/cv_home_description_search"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/tv_description_dbz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/dbz_schau_dir_deine_linblings_charaktere_an"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_description_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:backgroundTint="@color/cardview"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="@+id/scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/tv_description_detail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/detail_the_how_is_how"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_description_favorits"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/cardview"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/cv_home_description_dbz"
+        app:layout_constraintStart_toStartOf="@+id/cv_home_description_dbz"
+        app:layout_constraintTop_toBottomOf="@+id/cv_home_description_dbz"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/tv_description_detail_favorits"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/favorite_lasse_zwei_charactere_gegen_einander_antreten"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cv_home_description_search"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="@color/cardview"
+        app:cardCornerRadius="8dp"
+        app:cardElevation="8dp"
+        app:layout_constraintEnd_toEndOf="@+id/cv_home_description_detail"
+        app:layout_constraintStart_toStartOf="@+id/cv_home_description_detail"
+        app:layout_constraintTop_toBottomOf="@+id/cv_home_description_detail"
+        app:strokeColor="@color/white"
+        app:strokeWidth="1dp">
+
+        <TextView
+            android:id="@+id/tv_description_detail_search"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:paddingStart="8dp"
+            android:paddingTop="4dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="4dp"
+            android:text="@string/search_erkunde_das_dbz_universum"
+            android:textColor="@color/white" />
+    </androidx.cardview.widget.CardView>
+
+    <VideoView
+        android:id="@+id/vV_home"
+        android:layout_width="0dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="232dp"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="@+id/scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+    <ImageView
+        android:id="@+id/iv_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:contentDescription="@string/logout_button"
+        android:src="@drawable/baseline_logout_24"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/divider6"
+        android:layout_width="384dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="54dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/scrollView"
+        app:layout_constraintStart_toStartOf="@+id/scrollView"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView" />
+
+    <View
+        android:id="@+id/divider8"
+        android:layout_width="384dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/divider6"
+        app:layout_constraintStart_toStartOf="@+id/divider6"
+        app:layout_constraintTop_toBottomOf="@+id/divider6" />
+
+    <View
+        android:id="@+id/divider9"
+        android:layout_width="384dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/divider8"
+        app:layout_constraintStart_toStartOf="@+id/divider8"
+        app:layout_constraintTop_toBottomOf="@+id/divider8" />
+
+    <View
+        android:id="@+id/divider10"
+        android:layout_width="384dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/divider9"
+        app:layout_constraintStart_toStartOf="@+id/divider9"
+        app:layout_constraintTop_toBottomOf="@+id/divider9" />
+
+    <View
+        android:id="@+id/divider11"
+        android:layout_width="384dp"
+        android:layout_height="4dp"
+        android:layout_marginTop="32dp"
+        android:background="@color/gray"
+        app:layout_constraintEnd_toEndOf="@+id/divider10"
+        app:layout_constraintStart_toStartOf="@+id/divider10"
+        app:layout_constraintTop_toBottomOf="@+id/divider10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
