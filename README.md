@@ -40,18 +40,18 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
 <table>
   <tr>
     <td width="25%" align="center" valign="top">
-      <img src="docs/screenshots/00-login.png" width="190" alt="Login Screen">
-      <br><br>
-      <strong>Login</strong>
-      <br>
-      <sub>Anmeldung & Einstieg</sub>
-    </td>
-    <td width="25%" align="center" valign="top">
       <img src="docs/screenshots/01-splash.png" width="190" alt="Splash Screen">
       <br><br>
       <strong>Splash</strong>
       <br>
       <sub>Logo & Intro</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/00-login.png" width="190" alt="Login Screen">
+      <br><br>
+      <strong>Login</strong>
+      <br>
+      <sub>Anmeldung & Einstieg</sub>
     </td>
     <td width="25%" align="center" valign="top">
       <img src="docs/screenshots/02-home.png" width="190" alt="Home Screen">
