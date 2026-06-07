@@ -40,6 +40,13 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
 <table>
   <tr>
     <td width="25%" align="center" valign="top">
+      <img src="docs/screenshots/00-login.png" width="190" alt="Login Screen">
+      <br><br>
+      <strong>Login</strong>
+      <br>
+      <sub>Anmeldung & Einstieg</sub>
+    </td>
+    <td width="25%" align="center" valign="top">
       <img src="docs/screenshots/01-splash.png" width="190" alt="Splash Screen">
       <br><br>
       <strong>Splash</strong>
@@ -60,6 +67,8 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
       <br>
       <sub>Charaktere · Transformationen · Planeten</sub>
     </td>
+  </tr>
+  <tr>
     <td width="25%" align="center" valign="top">
       <img src="docs/screenshots/04-detail.png" width="190" alt="Detail Screen">
       <br><br>
@@ -67,8 +76,6 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
       <br>
       <sub>Werte · Beschreibung · Favorit</sub>
     </td>
-  </tr>
-  <tr>
     <td width="25%" align="center" valign="top">
       <img src="docs/screenshots/05-favorites.png" width="190" alt="Favoriten Screen">
       <br><br>
@@ -90,14 +97,10 @@ läuft über das **Jetpack Navigation Component** mit einer BottomNavigation.
       <br>
       <sub>Held wählen · Gegner antreten</sub>
     </td>
-    <td width="25%" align="center" valign="middle">
-      <br><br><br>
-      <strong>Getestet auf</strong>
-      <br>
-      <sub>Android-Emulator<br>API 24–34</sub>
-    </td>
   </tr>
 </table>
+
+<sub>Getestet auf Android-Emulator · API 24–34</sub>
 
 </div>
 
